@@ -12,11 +12,13 @@
   text-align: right;
 }
 
-.header .picture {
+.header 
+.picture {
   width: 100%;
 }
 
-.header .information-link {
+.header 
+.information-link {
   font-family: fantasy, cursive;
 }
 
@@ -49,11 +51,13 @@
   padding: 0px;
 }
 
-.list-item, .main-text {
+.list-item,
+.main-text {
   list-style: none;
 }
 
-.text-task,.btn{
+.text-task,
+.btn{
   outline: none;
 }
 
@@ -140,32 +144,41 @@
   width: 226px;
 }
 
-.btn.delete-btn .picture {
+.btn.delete-btn
+.picture {
   height: 2em;
   transform: rotateZ(45deg);
   transition: transform 200ms ease-in;
 }
 
-.btn.delete-btn .picture:hover {
+.btn.delete-btn
+.picture:hover {
   transform: rotateZ(0);
 }
 
 /* Completed */
-.list#completed-tasks .storage {
+.list#completed-tasks
+.storage {
   text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
-.list .list-item .text-task[type="text"] {
+.list
+.list-item
+.text-task[type="text"] {
   display: none;
 }
 
-.list .list-item.edit-mode .text-task[type="text"] {
+.list
+.list-item.edit-mode
+.text-task[type="text"] {
   display: inline-block;
   width: 224px;
 }
 
-.list .list-item.edit-mode .storage {
+.list
+.list-item.edit-mode
+.storage {
   display: none;
 }
